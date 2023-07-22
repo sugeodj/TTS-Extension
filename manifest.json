@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Text-to-Speech Highlight",
+  "name": "Highlighted Text-to-Speech",
   "version": "1.0",
   "description": "Adds an option to read the highlighted text using Text-to-Speech.",
   "permissions": ["contextMenus", "tts"],
@@ -8,16 +8,16 @@
     "service_worker": "background.js"
   },
   "icons": {
-    "16": "/imgs/icon16.png",
-    "48": "/imgs/icon32.png",
-    "128": "/imgs/icon128.png"
+    "16": "icon16.png",
+    "48": "icon32.png",
+    "128": "icon128.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/imgs/icon16.png",
-      "48": "/imgs/icon32.png",
-      "128": "/imgs/icon128.png"
+      "16": "icon16.png",
+      "48": "icon32.png",
+      "128": "icon128.png"
     }
   }
 }
